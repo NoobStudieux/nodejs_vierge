@@ -9,11 +9,11 @@ Les fichiers typescript doivent être compilé en lançant à la racine du proje
 
 tsc
 
-(actuellement obligé de transpiler uniquement app.ts sinon erreur : à voir)
+(problème de modules ?? (fs, os .. ))
 
 puis, lancer avec la commande : 
 
-node ./build/server.js
+node ./build/app.js
 
 (il faudra peut être re installé type/node (npm install))
 
